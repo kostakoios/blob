@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+input[type=text], [type=password], [type=email], select, textarea {
+  width: 250px; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.container {
+  padding: 40px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 8px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.label-container {
+   flex-grow: 4;
+   display: flex; 
+   justify-content: left;
+}
+
+button[type=submit] {
+  background-color: #1976d2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

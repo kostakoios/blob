@@ -1,11 +1,16 @@
-import React from 'react';
-import FileUpload from '../fileupload/FileUpload';
+import Header from '../header/Header';
+import FileMenu from '../fileMenu/FileMenu';
+import FoldersLayout from '../foldersLayout/FoldersLayout';
+import FileDisplay from '../filedisplay/FileDisplay';
 
 const HomePage = () => {
+  console.log()
   return (
     <div>
-      <h2>Hello</h2>
-      <FileUpload />
+      <Header />
+      <FileMenu />
+      <FileDisplay />
+      <FoldersLayout />
     </div>
   );
 };
